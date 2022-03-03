@@ -1,3 +1,8 @@
+
+require __DIR__ . '/vendor/autoload.php';
+
+use Curl\Curl;
+
 /* Registration Functions */
 function create_userID(){
     $bytes = random_bytes(6);
