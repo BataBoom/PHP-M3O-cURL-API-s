@@ -1,6 +1,7 @@
 <?php
-//require cURL class, API Keys, Etc
+//include requirements, keys, etc
 require 'includes/config/config.php';
+use Curl\Curl;
 function QR($uid){
 global $qr;
 $curl = new Curl();
